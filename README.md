@@ -90,7 +90,7 @@ State choices:
 - `isLoading` lives in context so screens/components can reflect global loading states consistently.
 
 
-### Known Issues and Potential Improvements
+## Known Issues and Potential Improvements
 
 Known issues:
 - Calling Gemini directly from the browser can hit CORS or expose the API key. A thin backend proxy is recommended for production.
