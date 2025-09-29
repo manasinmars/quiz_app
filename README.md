@@ -17,7 +17,6 @@ A modern, interactive quiz application built with React and TypeScript that uses
 - **React 18** with TypeScript
 - **Context API** for state management
 - **CSS3** with modern features (Grid, Flexbox, Custom Properties)
-- **Mock AI Service** (easily replaceable with real AI APIs)
 
 ## Project Structure
 
@@ -81,17 +80,6 @@ This builds the app for production to the `build` folder.
 
 ## Configuration
 
-### AI Service Integration
-
-The app currently uses a mock AI service for demonstration. To integrate with a real AI service:
-
-1. Update `src/services/aiService.ts`
-2. Uncomment the real AI service implementation
-3. Set your API URL and key in environment variables:
-   ```bash
-   REACT_APP_AI_API_URL=your_api_url
-   REACT_APP_AI_API_KEY=your_api_key
-   ```
 
 ### Adding New Topics
 
